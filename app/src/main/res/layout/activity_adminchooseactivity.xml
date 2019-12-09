@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:gravity="center"
+    android:background="@drawable/gradientchoose"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminchooseactivity">
+    <Button
+        android:id="@+id/btnaddbookchoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button"
+
+        android:text="ADD BOOK" />
+    <Button
+        android:id="@+id/btndelbookchoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button"
+
+        android:text="DELETE BOOK" />
+    <Button
+        android:id="@+id/btnshowallbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button"
+
+        android:text="SHOW BOOKS" />
+    <Button
+        android:id="@+id/btnshowallusers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button"
+
+        android:text="SHOW ALL USERS" />
+
+</LinearLayout>
